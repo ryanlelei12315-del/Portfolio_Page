@@ -1,0 +1,16 @@
+.hero {
+    
+    border: 1px solid red;
+
+}
+.hero img {
+    object-fit: cover;
+    object-position: top;
+    width: 50%;
+    height: 100%;
+}
+@keyframes identifier {
+    unknown {
+        /* animation properties */
+    }
+}
