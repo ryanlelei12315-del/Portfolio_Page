@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Lelei - Full-Stack Developer</title>
-    <meta name="description" content="Ryan Lelei - Full-Stack Developer portfolio showcasing my skills, built projects, and contact info.">
+    <meta name="description"
+        content="Ryan Lelei - Full-Stack Developer portfolio showcasing my skills, built projects, and contact info.">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +20,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://jsdelivr.net">
+    <link rel="stylesheet" href="https://cloudflare.com">
 
 
 </head>
@@ -38,15 +41,20 @@
     </header>
     <section id="home">
         <div class="hero">
-            <h1>Ryan Lelei</h1>
-            <img src="" alt="">
-            <h2>Full-Stack Developer</h2>
-            <h3>Based in Eldoret, Kenya</h3>
-            <p><strong>I build scalable systems which solve real life problems.</strong></p>
-            <div class="social-links">
-                <a href="https://github.com/github-login" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <img class="images" src="creatisphere/file_0000000077bc71fd8bee129de0021fa3.png" alt="profile photo">
+            <div class="info">
+                <h1>Ryan Lelei</h1>
+                <h2>Full-Stack Developer</h2>
+                <h3>Based in Eldoret, Kenya</h3>
+                <p><strong>I build scalable systems which solve real life problems.</strong></p>
+                <div class="social-links">
+                    <a href="https://github.com/github-login" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ryan-lelei-a22792303/" target="_blank"> <i
+                            class="fab fa-linkedin-in"></i></a><!-- <span class="mdi mdi-linkedin"></span></a> -->
+                    <a href="https://x.com/LeleiRyan33592"
+                        target="_blank"><!-- <span class="mdi mdi-twitter-x"></span> --><i
+                            class="fab fa-twitter"></i></a>
+                </div>
             </div>
         </div>
     </section>
@@ -54,14 +62,26 @@
         <div class="skills">
             <h1>Skills</h1>
             <div class="skill-tags">
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">JavaScript</span>
-                <span class="skill-tag">React</span>
-                <span class="skill-tag">HTML & CSS</span>
-                <span class="skill-tag">SQL</span>
-                <span class="skill-tag">Docker</span>
-                <span class="skill-tag">Linux</span>
-                <span class="skill-tag">Git</span>
+                <div class="skill-card">
+                    <h3>HTML</h3><i class="fa-brands fa-html5"></i>
+                    <div class="skill_bar">
+                        <div class="skill-progress" style="--skill-progress:95%;"></div>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3><i class="fa-brands fa-css3-alt"></i>
+                    <div class="skill_bar">
+                        <div class="skill-progress" style="--skill-progress:90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3><i class="fa-brands fa-js"></i>
+                    <div class="skill_bar">
+                        <div class="skill-progress" style="--skill-progress:85%;"></div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -70,7 +90,7 @@
             <h1>Projects</h1>
             <div class="project-list">
                 <div class="project-item">
-                    <h2>Project#</h2>
+                    <h2>Project#</h2><a href="http://"></a>
                     <p>A voice assistant using local languages like Swahili with AI to navigate government websites like
                         e-citizen.</p>
                 </div>
@@ -79,6 +99,15 @@
                     <p>Creati-sphere - A platform which allows users to turn their imagination to reality for creating
                         and editing social content.</p>
                 </div>
+                <div class="project-item">
+                    <h2>Karibu Restaurants</h2>
+                    <p>A restaurant app which allows users to order food and drinks.</p>
+                </div>
+                <div class="project-item">
+                    <h2>News-home page</h2>
+                    <p>A news-home page which allows users to read news articles.</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -97,13 +126,16 @@
     <section id="contact">
         <div class="contact">
             <h1>Contact Me</h1>
-            
+
             <div class="social-contact">
-                <a href="https://github.com/github-login" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://www.linkedin.com/in/ryan-lelei-a5b9b9b9b" target="_blank" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://twitter.com/github-login" target="_blank" class="btn"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://github.com/github-login" target="_blank" class="btn"><i class="fab fa-github"></i>
+                    GitHub</a>
+                <a href="https://www.linkedin.com/in/ryan-lelei-a5b9b9b9b" target="_blank" class="btn"><i
+                        class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://twitter.com/github-login" target="_blank" class="btn"><i class="fab fa-twitter"></i>
+                    Twitter</a>
             </div>
-            
+
             <form class="contact-form" action="form.php" method="post">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name">
